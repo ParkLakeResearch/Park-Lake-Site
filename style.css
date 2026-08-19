@@ -31,13 +31,15 @@ nav {
 }
 
 nav .nav-logo {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--ink);
+  display: flex;
+  align-items: center;
   text-decoration: none;
+}
+
+nav .nav-logo img {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 nav ul { list-style: none; display: flex; gap: 2.5rem; }
