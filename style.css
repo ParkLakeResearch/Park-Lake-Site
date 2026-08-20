@@ -103,6 +103,13 @@ nav ul a:hover { opacity: 1; }
   text-align: center;
 }
 
+.wordmark-block .wordmark-icon {
+  height: 3.4rem;
+  width: auto;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
 .wordmark-block .wm-primary {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
@@ -379,6 +386,7 @@ footer span {
   .hero-side-left, .hero-side-right { align-items: center; text-align: center; padding-bottom: 1rem; }
   .hero-side-left .tagline { max-width: 100%; }
   .wordmark-block .wm-primary { font-size: 2.4rem; }
+  .wordmark-block .wordmark-icon { height: 2.4rem; }
 
   .about, .insights-header { grid-template-columns: 1fr; gap: 2rem; padding: 4rem 2rem 5rem; }
   .about-label { position: static; }
