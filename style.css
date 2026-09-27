@@ -400,8 +400,9 @@ nav ul a:hover { opacity: 1; }
 }
 
 .contact-item .f-label {
+  font-family: 'Inter', sans-serif;
   font-size: 0.6rem;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   color: var(--mid);
   display: block;
@@ -410,7 +411,7 @@ nav ul a:hover { opacity: 1; }
 .contact-item a {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   color: var(--ink);
   text-decoration: none;
   transition: color 0.2s;
