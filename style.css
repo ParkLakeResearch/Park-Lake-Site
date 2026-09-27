@@ -364,6 +364,60 @@ nav ul a:hover { opacity: 1; }
   margin-bottom: 0.35rem;
 }
 
+/* CONTACT */
+.contact-section {
+  border-top: 1px solid var(--rule);
+  padding: 7rem 3rem 8rem;
+}
+
+.contact-section .section-num {
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--mid);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.contact-section h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  color: var(--ink);
+  margin-bottom: 3rem;
+}
+
+.contact-details {
+  display: flex;
+  gap: 4rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-item .f-label {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--mid);
+  display: block;
+}
+
+.contact-item a {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.15rem;
+  color: var(--ink);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-item a:hover { color: var(--red); }
+
 /* FOOTER */
 footer {
   border-top: 1px solid var(--rule);
@@ -398,6 +452,9 @@ footer span {
 
   .insights { padding: 4rem 2rem 5rem; }
   .post-item { grid-template-columns: 1fr; gap: 1rem; padding: 2.5rem 0; }
+
+  .contact-details { flex-direction: column; gap: 2rem; }
+  .contact-section { padding: 4rem 2rem 5rem; }
 
   nav { padding: 1.5rem 2rem; }
   .rule { width: calc(100% - 4rem); margin: 0 2rem; }
